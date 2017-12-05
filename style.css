@@ -1,20 +1,20 @@
 .button{
-  background-color: #4CAF50;
+  background-color:rgba(0, 0, 0, 0.5);
   border: none;
-  color: white;
+  color: rgba(255, 255, 255, 1);
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
-  border-radius: 50px;
+  border-radius: 2px;
   transition-duration: 0.4s;
 }
 
 .button:hover{
   text-decoration: none;
-  background-color: red;
-  color:white;
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
 }
 
 .marginTwenty{
@@ -27,18 +27,38 @@ body{
 }
 
 .navBar{
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color:rgba(255, 255, 255, 0);
   position: fixed;
+  z-index: 1;
+}
+
+.logo{
+  width: 50%;
+}
+
+.jumbotron{
+  padding:0;
+  padding-bottom: 2em;
 }
 
 .main{
-  padding-top: 10%;
+  padding-top: 7%;
+  margin-bottom: 10%;
+}
+
+.white{
 }
 
 h6, span{
   font-size: 10px;
 }
 
+
 h6{
   margin-top: 2em;
+}
+
+footer{
+  font-size: 10px;
+  text-align: center;
 }
