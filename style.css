@@ -51,8 +51,12 @@ body{
 .white{
 }
 
-h6, span{
+h6{
   font-size: 10px;
+}
+
+span{
+  font-size: 25px;
 }
 
 
@@ -77,3 +81,34 @@ footer{
 
 .buttonsPrevNext{
   }
+
+
+.red{
+    color:red;
+    }
+.form-area
+{
+    background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+	}
+
+.amatic{
+  font-family: 'Amatic SC', cursive;
+}
+
+.andika{
+  font-family: 'Andika', sans-serif;
+}
+
+li{
+  font-family: 'Andika', sans-serif;
+}
+
+#characterLeft{
+  font-size:10px;
+}
+
+.plsAlign{
+}
